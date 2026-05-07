@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Currency convertor!</h1>
+    <p>You can see 160+ currencies here</p>
+    <div class="wrapper">
+      <h2>
+        <span class="f_cur_span">0</span>
+        <span class="s_cur_span">***</span>
+        to
+        <span class="t_cur_span">***</span>
+      </h2>
+
+      <div class="mid_wrapper">
+        <div class="left">
+          <div>
+            <label for="first_cur" aria-label="first_cur"></label>
+            <input id="first_cur" type="text" />
+            <div class="first_hidden"></div>
+          </div>
+
+          <div>
+            <label for="first_num" aria-label="first_num"></label>
+            <input id="first_num" type="number" />
+          </div>
+        </div>
+        <div class="mid">
+          <button class="reverse_btn">
+            <img
+              src="./swap_horizontal_circle_47dp_CURRENTCOLOR_FILL0_wght400_GRAD0_opsz48.svg"
+              alt="swap icon"
+            />
+          </button>
+        </div>
+        <div class="right">
+          <div>
+            <label for="second_cur" aria-label="second_cur"></label>
+            <input id="second_cur" type="text" />
+            <div class="second_hidden"></div>
+          </div>
+
+          <div>
+            <label for="second_num" aria-label="second_num"></label>
+            <input id="second_num" type="number" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="./script.js"></script>
+</html>
